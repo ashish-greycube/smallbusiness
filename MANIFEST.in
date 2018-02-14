@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include smallbusiness *.css
+recursive-include smallbusiness *.csv
+recursive-include smallbusiness *.html
+recursive-include smallbusiness *.ico
+recursive-include smallbusiness *.js
+recursive-include smallbusiness *.json
+recursive-include smallbusiness *.md
+recursive-include smallbusiness *.png
+recursive-include smallbusiness *.py
+recursive-include smallbusiness *.svg
+recursive-include smallbusiness *.txt
+recursive-exclude smallbusiness *.pyc
