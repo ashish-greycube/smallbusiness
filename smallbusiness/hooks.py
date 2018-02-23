@@ -6,7 +6,7 @@ app_name = "smallbusiness"
 app_title = "Small Business App"
 app_publisher = "GreyCube Technologies"
 app_description = "It is scale down version of erpnext for small business"
-app_icon = "'octicon octicon-squirrel'"
+app_icon = "octicon octicon-squirrel"
 app_color = "#2defbb"
 app_email = "admin@greycube.in"
 app_license = "MIT"
@@ -16,14 +16,14 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/smallbusiness/css/smallbusiness.css"
-# app_include_js = "/assets/smallbusiness/js/smallbusiness.js"
+#app_include_js = ["/assets/smallbusiness/js/smallbusiness.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/smallbusiness/css/smallbusiness.css"
 # web_include_js = "/assets/smallbusiness/js/smallbusiness.js"
 
 # include js in page
-# page_js = {"page" : "public/js/file.js"}
+page_js = {"modules" : "public/js/smallbusiness.js"}
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
@@ -119,4 +119,12 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "smallbusiness.event.get_events"
 # }
-
+fixtures = [{
+	"doctype": "DocType",
+            "filters": { "custom" : ["=", "1"] }
+           }, 
+    	"Custom Field",
+    	"Custom Script",
+    	"Property Setter",
+            "Print Format"
+       ]
