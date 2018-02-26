@@ -16,10 +16,23 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/smallbusiness/css/smallbusiness.css"
+app_include_css = [
+    "/assets/smallbusiness/css/bdtheme.css",
+    "/assets/smallbusiness/css/skin-blue.css",
+    "/assets/smallbusiness/css/custom.css",
+    "/assets/bsmallbusinessdtheme/css/temp.css",
+]
+#app_include_css = "/assets/ni_dark_theme/css/ni.dark.theme.css"
 #app_include_js = ["/assets/smallbusiness/js/smallbusiness.js"]
-
+app_include_js = [
+    "/assets/smallbusiness/js/smallbusiness.js",
+    "/assets/smallbusiness/js/bdtheme.js",
+    "/assets/smallbusiness/js/custom.js",
+    "/assets/js/bdtheme-template.min.js",
+]
 # include js, css files in header of web template
 # web_include_css = "/assets/smallbusiness/css/smallbusiness.css"
+web_include_css = "/assets/smallbusiness/css/bdtheme-web.css"
 # web_include_js = "/assets/smallbusiness/js/smallbusiness.js"
 
 # include js in page
@@ -33,7 +46,10 @@ page_js = {"modules" : "public/js/smallbusiness.js"}
 
 # Home Pages
 # ----------
-
+website_context = {
+	"favicon": 	"/assets/smallbusiness/images/favicon.png",
+	"splash_image": "/assets/smallbusiness/images/icon.png"
+}
 # application home page (will override Website Settings)
 # home_page = "login"
 
@@ -54,8 +70,8 @@ page_js = {"modules" : "public/js/smallbusiness.js"}
 # Installation
 # ------------
 
-# before_install = "smallbusiness.install.before_install"
-# after_install = "smallbusiness.install.after_install"
+before_install = "smallbusiness.install.before_install"
+#after_install = "smallbusiness.install.after_install"
 
 # Desk Notifications
 # ------------------
