@@ -1,0 +1,21 @@
+.gridster ul {
+    background-color: #EFEFEF;
+  }
+  .gridster li {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    list-style: none;
+    font-weight: bold;
+  }
+  .gridster-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }

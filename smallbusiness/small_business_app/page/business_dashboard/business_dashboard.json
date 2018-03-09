@@ -1,0 +1,20 @@
+{
+ "content": null, 
+ "creation": "2018-03-01 05:31:38.752356", 
+ "docstatus": 0, 
+ "doctype": "Page", 
+ "icon": "fas fa-balance-scale", 
+ "idx": 0, 
+ "modified": "2018-03-01 05:31:38.752356", 
+ "modified_by": "Administrator", 
+ "module": "Small Business App", 
+ "name": "business-dashboard", 
+ "owner": "Administrator", 
+ "page_name": "Business Dashboard", 
+ "roles": [], 
+ "script": null, 
+ "standard": "Yes", 
+ "style": null, 
+ "system_page": 0, 
+ "title": "Dashboard"
+}

@@ -20,7 +20,7 @@ app_include_css = [
     "/assets/smallbusiness/css/bdtheme.css",
     "/assets/smallbusiness/css/skin-blue.css",
     "/assets/smallbusiness/css/custom.css",
-    "/assets/bsmallbusinessdtheme/css/temp.css",
+    "/assets/smallbusiness/css/temp.css",
 ]
 #app_include_css = "/assets/ni_dark_theme/css/ni.dark.theme.css"
 #app_include_js = ["/assets/smallbusiness/js/smallbusiness.js"]

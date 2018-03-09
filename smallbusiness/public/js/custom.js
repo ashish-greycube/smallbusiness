@@ -8,11 +8,11 @@ $(document).ready(function() {
 	$('body').addClass('skin-blue sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');	
 	
-	bdtheme.set_user_background();
+	smallbusiness.set_user_background();
 	
 });
 
-frappe.provide("bdtheme");
+frappe.provide("smallbusiness");
 
 // add toolbar icon
 $(document).bind('toolbar_setup', function() {
@@ -21,7 +21,7 @@ $(document).bind('toolbar_setup', function() {
 
 });
 
-bdtheme.set_user_background = function(src, selector, style){
+smallbusiness.set_user_background = function(src, selector, style){
 	if(!selector) selector = "#page-desktop";
 	if(!style) style = "Fill Screen";
 	if(src) {
